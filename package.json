@@ -1,0 +1,23 @@
+{
+  "name": "ulohy",
+  "version": "1.0.0",
+  "description": "Riesenia uloh",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "build": "tsc"
+  },
+  "author": "Jaroslav Meleg",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "@types/chai": "^4.0.4",
+    "@types/lodash": "^4.14.85",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
